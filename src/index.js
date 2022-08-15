@@ -3,6 +3,7 @@ import {
   getIsModified, getData, addtasksList, saveEdit, showtasksList, clearAll,
 } from './modules/crud.js';
 
+// Add Task Function
 const desc = document.getElementById('input');
 
 desc.addEventListener('keyup', (e) => {
